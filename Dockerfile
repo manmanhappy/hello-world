@@ -11,3 +11,4 @@ EXPOSE 80
 
 # The CMD instruction provides default execution command for an container
 # Start Nginx and keep it from runnin
+CMD["nginx","-g","daemon off"]

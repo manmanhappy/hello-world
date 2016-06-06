@@ -4,7 +4,7 @@ FROM nginx
 
 # The RUN instruction will execute any commands
 # Adding HelloWorld page into Nginx server
-RUN1 echo "Hello World DaoCloud!" > /usr/share/nginx/html/index.html
+RUN echo "Hello World DaoCloud!" > /usr/share/nginx/html/index.html
 
 # The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime
 EXPOSE 80
